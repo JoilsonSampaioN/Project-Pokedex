@@ -102,8 +102,7 @@ main .cartao-pokemon .tipo{
     border-radius: 10px;
 }
 .grama{
-    background-color: rgb(78, 156, 0);
-}
+    background-color: rgb(78, 156, 0);}
 .veneno {background-color: rgb(172, 89, 250);}
 .fogo {background-color: rgb(228, 93, 4);}
 .agua {background-color: aqua;}

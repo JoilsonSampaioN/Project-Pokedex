@@ -113,7 +113,8 @@ main .cartao-pokemon .tipo{
 .eletrico{background-color: rgb(202, 206, 2);}
 .terrestre{background-color: rgb(177, 96, 5);}
 .fada{background-color: rgb(243, 2, 223);}
-
+.lutador{background-color: #e0372b;}
+.psiquico{background-color: darksalmon;}
 main .descricao{
     font-size: 14px;
     padding-right: 10px;

@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Daydream";
+    src: url("../Daydream.ttf");
+    }
 body{
  font-family: 'Poppins' , sans-serif;
  max-width: 1280px;
@@ -108,14 +112,23 @@ main .cartao-pokemon .tipo{
 .agua {background-color: aqua;}
 .voador {background-color: #5a778f;}    
 .inseto{background-color: rgb(55, 211, 7);}
-.normal{background-color: rgb(155, 153, 153);}
+.normal{background-color: rgb(243, 235, 235);}
 .eletrico{background-color: rgb(202, 206, 2);}
 .terrestre{background-color: rgb(177, 96, 5);}
 .fada{background-color: rgb(243, 2, 223);}
 .lutador{background-color: #e0372b;}
 .psiquico{background-color: darksalmon;}
 .pedra{background-color:saddlebrown;}
+.ferro{background-color: gray;}
 main .descricao{
     font-size: 14px;
     padding-right: 10px;
+}
+h1{
+    font-family: Daydream,sans-serif,serif;
+    text-align: center;
+    font-weight: 700px;
+    margin-bottom: 20px;
+    color:rgb(250, 238, 230);
+    text-shadow:10px 10px 10px #333333 ;
 }

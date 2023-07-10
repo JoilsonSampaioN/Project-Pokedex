@@ -2,6 +2,10 @@
     font-family: "Daydream";
     src: url("../Daydream.ttf");
     }
+    @font-face {
+        font-family: "Pokemon";
+        src: url(../PokemonSolid.ttf);
+    }
 body{
  font-family: 'Poppins' , sans-serif;
  max-width: 1280px;
@@ -127,10 +131,10 @@ main .descricao{
     padding-right: 10px;
 }
 h1{
-    font-family: Daydream,sans-serif,serif;
+    font-family: "Pokemon",sans-serif,serif;
     text-align: center;
     font-weight: 700px;
     margin-bottom: 20px;
-    color:rgb(250, 238, 230);
+    color: whitesmoke;
     text-shadow:10px 10px 10px #333333 ;
 }

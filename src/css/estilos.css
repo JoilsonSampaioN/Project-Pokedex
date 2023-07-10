@@ -38,7 +38,8 @@ header .imagem-botao
     background-position: center;
     display: flex;
 }
-header #botao-alterar-tema{
+header #botao-alterar-tema,
+header #logo{
     background: none; 
     border: none;
 }
@@ -109,10 +110,10 @@ main .cartao-pokemon .tipo{
     background-color: rgb(78, 156, 0);}
 .veneno {background-color: rgb(172, 89, 250);}
 .fogo {background-color: rgb(228, 93, 4);}
-.agua {background-color: aqua;}
+.agua {background-color: #023e8a;}
 .voador {background-color: #5a778f;}    
 .inseto{background-color: rgb(55, 211, 7);}
-.normal{background-color: rgb(243, 235, 235);}
+.normal{background-color: #d5bdaf;}
 .eletrico{background-color: rgb(202, 206, 2);}
 .terrestre{background-color: rgb(177, 96, 5);}
 .fada{background-color: rgb(243, 2, 223);}

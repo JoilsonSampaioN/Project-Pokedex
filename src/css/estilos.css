@@ -105,6 +105,7 @@ main .cartao-pokemon .tipos{
 main .cartao-pokemon .tipo{
     padding: 8px;
     border-radius: 10px;
+    color: black;
 }
 .grama{
     background-color: rgb(78, 156, 0);}

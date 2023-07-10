@@ -38,7 +38,8 @@ header .imagem-botao
     background-position: center;
     display: flex;
 }
-header #botao-alterar-tema{
+header #botao-alterar-tema,
+header #logo{
     background: none; 
     border: none;
 }

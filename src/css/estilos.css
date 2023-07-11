@@ -109,13 +109,13 @@ main .cartao-pokemon .tipos{
 main .cartao-pokemon .tipo{
     padding: 8px;
     border-radius: 10px;
-    color: black;
+    color: white;
 }
 .grama{
     background-color: rgb(78, 156, 0);}
-.veneno {background-color: rgb(172, 89, 250);}
+.veneno {background-color: #ff70a6;}
 .fogo {background-color: rgb(228, 93, 4);}
-.agua {background-color: #023e8a;}
+.agua {background-color: #5993df;}
 .voador {background-color: #5a778f;}    
 .inseto{background-color: rgb(55, 211, 7);}
 .normal{background-color: #d5bdaf;}
@@ -126,6 +126,8 @@ main .cartao-pokemon .tipo{
 .psiquico{background-color: darksalmon;}
 .pedra{background-color:saddlebrown;}
 .ferro{background-color: gray;}
+.gelo{background-color: #bde0fe;}
+.fantasma{background-color: #3c096c;}
 main .descricao{
     font-size: 14px;
     padding-right: 10px;
@@ -137,4 +139,24 @@ h1{
     margin-bottom: 20px;
     color: whitesmoke;
     text-shadow:10px 10px 10px #333333 ;
+}
+.lista-de-geracoes{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    font-size: 13px;
+    text-align: center;
+    width: 130px;
+    height: 10  0px;
+    background-color: #618ceb;
+    border-radius: 0 20px;
+    padding-top: 10px;
+    display:none;
+}
+.aberta{
+    display: block;
+}
+.lista-de-geracoes a {
+    text-decoration: none;
+    color: #080808;
 }

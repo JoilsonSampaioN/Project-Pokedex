@@ -1,5 +1,4 @@
 const botaoAlterarTema = document.getElementById("botao-alterar-tema");
-console.log(botaoAlterarTema)
 const body = document.querySelector("body")
 const imagemBotaoTrocaDeTema = document.querySelector(".imagem-botao")
 botaoAlterarTema.addEventListener("click", () => {
@@ -10,6 +9,16 @@ botaoAlterarTema.addEventListener("click", () => {
     } else { imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/moon.png")
     }
     });
+
+    const botaoAbrirListaDeGeracoes = document.getElementById("botao-abrir-lista")
+    const listaDeGeracoes = document.getElementById("lista-de-geracoes")    
+    botaoAbrirListaDeGeracoes.addEventListener('click',()=>{
+        if(listaDeGeracoes.style.display === "block"){
+            listaDeGeracoes.style.display = "none";
+        }else{
+            listaDeGeracoes.style.display = "block";
+        }
+    })
     
 
 

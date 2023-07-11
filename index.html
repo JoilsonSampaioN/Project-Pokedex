@@ -25,7 +25,7 @@
 <body class="papel-de-parede">
     <header>
         <button href="#" id="logo">
-            <img src="./src/imagens/pokeball.png" alt="Pokebola" class="logo">
+            <img src="./src/imagens/pokeball.png" alt="Pokebola" class="logo" id="botao-abrir-lista">
         </button>
         <img src="./src/imagens/612ce4761b9679000402af1c.png" alt="Titulo" class="titulo">
         <button id="botao-alterar-tema">
@@ -34,8 +34,16 @@
     </header>
 </body>
 </html>
+<aside class="aside">
+    <ul class="lista-de-geracoes" id="lista-de-geracoes">
+        <li class="1geracao"><a href="">Primeira Geração</a></li>
+        <li class="2geracao"><a href="">Segunda Geração</a></li>
+        <li class="3geracao"><a href="">Terceira Geração</a></li>
+        <li class="4geracao"><a href="">Quarta Geração</a></li>
+    </ul>
+</aside>
     <main>
-       <ul>
+       <ul class="primeira-geracao">
         <h1>Primeira Geração</h1>
         <ul class="listagem-pokemon">
             <li class="cartao-pokemon">
@@ -1035,13 +1043,510 @@
                                     <span>#086</span>
                                 </div>
                                 <img src="./src/imagens/86.gif" alt="Seel" class="gif">
-                                <ul>
+                                <ul class="tipos">
                                     <li class="tipo agua">Água</li>
                                 </ul>
                                 <p>Adora condições de frio congelante. Gosta de nadar em um clima gelado de cerca de 14 graus Fahrenheit.</p>
                               </li>
+                              <li class="cartao-pokemon">
+                                <div class="informacoes">
+                                    <span>Dewgong</span>
+                                    <span>#087</span>
+                                </div>
+                                <img src="src/imagens/87.gif" alt="Dewgong" class="gif">
+                                <ul class="tipos">
+                                    <li class="tipo agua">Água</li>
+                                </ul>
+                                <p></p>
+                                </li>
+                                <li class="cartao-pokemon">
+                                    <div class="informacoes">
+                                        <span>Grimer</span>
+                                        <span>#088</span>
+                                    </div>
+                                    <img src="src/imagens/88.gif" alt="Grimer" class="gif">
+                                    <ul class="tipos">
+                                        <li class="tipo veneno">Veneno</li>
+                                    </ul>
+                                    <p></p>
+                                    </li>
+                                    <li class="cartao-pokemon">
+                                        <div class="informacoes">
+                                            <span>Muk</span>
+                                            <span>#089</span>
+                                        </div>
+                                        <img src="src/imagens/89.gif" alt="Muk" class="gif">
+                                        <ul class="tipos">
+                                            <li class="tipo veneno">Veneno</li>
+                                        </ul>
+                                        <p></p>
+                                        </li>
+                                        <li class="cartao-pokemon">
+                                            <div class="informacoes">
+                                                <span>Shellder</span>
+                                                <span>#090</span>
+                                            </div>
+                                            <img src="src/imagens/90.gif" alt="Shellder" class="gif">
+                                            <ul class="tipos">
+                                                <li class="tipo agua">Água</li>
+                                            </ul>
+                                            <p></p>
+                                            </li>
+                                            <li class="cartao-pokemon">
+                                                <div class="informacoes">
+                                                    <span>Cloyster</span>
+                                                    <span>#091</span>
+                                                </div>
+                                                <img src="src/imagens/91.gif" alt="Cloyster" class="gif">
+                                                <ul class="tipos">
+                                                    <li class="tipo agua">Água</li>
+                                                    <li class="tipo gelo">Gelo</li>
+                                                </ul>
+                                                <p></p>
+                                                </li>
+                                                <li class="cartao-pokemon">
+                                                    <div class="informacoes">
+                                                        <span>Gastly</span>
+                                                        <span>#092</span>
+                                                    </div>
+                                                    <img src="src/imagens/92.gif" alt="Gastly" class="gif">
+                                                    <ul class="tipos">
+                                                        <li class="tipo fantasma">Fantasma</li>
+                                                        <li class="tipo veneno">Veneno</li>
+                                                    </ul>
+                                                    <p></p>
+                                                    </li>
+                                                    <li class="cartao-pokemon">
+                                                        <div class="informacoes">
+                                                            <span>Haunter</span>
+                                                            <span>#093</span>
+                                                        </div>
+                                                        <img src="src/imagens/93.gif" alt="Haunter" class="gif">
+                                                        <ul class="tipos">
+                                                            <li class="tipo fantasma">Fantasma</li>
+                                                            <li class="tipo veneno">Veneno</li>
+                                                        </ul>
+                                                        <p></p>
+                                                        </li>
+                                                        <li class="cartao-pokemon">
+                                                            <div class="informacoes">
+                                                                <span>Gengar</span>
+                                                                <span>#094</span>
+                                                            </div>
+                                                            <img src="src/imagens/94.gif" alt="Gengar" class="gif">
+                                                            <ul class="tipos">
+                                                                <li class="tipo fantasma">Fantasma</li>
+                                                                <li class="tipo veneno">Veneno</li>
+                                                            </ul>
+                                                            <p></p>
+                                                            </li>
+                                                            <li class="cartao-pokemon">
+                                                                <div class="informacoes">
+                                                                    <span>Onix</span>
+                                                                    <span>#095</span>
+                                                                </div>
+                                                                <img src="src/imagens/95.gif" alt="Onix" class="gif">
+                                                                <ul class="tipos">
+                                                                    <li class="tipo pedra">Pedra</li>
+                                                                    <li class="tipo terrestre">Terrestre</li>
+                                                                </ul>
+                                                                <p></p>
+                                                                </li>
+                                                                <li class="cartao-pokemon">
+                                                                    <div class="informacoes">
+                                                                        <span>Drowzee</span>
+                                                                        <span>#096</span>
+                                                                    </div>
+                                                                    <img src="src/imagens/96.gif" alt="Drowzee" class="gif">
+                                                                    <ul class="tipos">
+                                                                        <li class="tipo psiquico">Psíquico</li>
+                                                                    </ul>
+                                                                    <p></p>
+                                                                    </li>
+                                                                    <li class="cartao-pokemon">
+                                                                        <div class="informacoes">
+                                                                            <span>Hypno</span>
+                                                                            <span>#097</span>
+                                                                        </div>
+                                                                        <img src="src/imagens/97.gif" alt="Hypno" class="gif">
+                                                                        <ul class="tipos">
+                                                                            <li class="tipo psiquico">Psíquico</li>
+                                                                        </ul>
+                                                                        <p></p>
+                                                                        </li>
+                                                                        <li class="cartao-pokemon">
+                                                                            <div class="informacoes">
+                                                                                <span>Krabby</span>
+                                                                                <span>#098</span>
+                                                                            </div>
+                                                                            <img src="src/imagens/98.gif" alt="Krabby" class="gif">
+                                                                            <ul class="tipos">
+                                                                                <li class="tipo agua">Água</li>
+                                                                            </ul>
+                                                                            <p></p>
+                                                                            </li>
+                                                                            <li class="cartao-pokemon">
+                                                                                <div class="informacoes">
+                                                                                    <span>Kingler</span>
+                                                                                    <span>#099</span>
+                                                                                </div>
+                                                                                <img src="src/imagens/99.gif" alt="Kingler" class="gif">
+                                                                                <ul class="tipos">
+                                                                                    <li class="tipo agua">Água</li>
+                                                                                </ul>
+                                                                                <p></p>
+                                                                                </li>
+                                                                                <li class="cartao-pokemon">
+                                                                                    <div class="informacoes">
+                                                                                        <span>Voltorb</span>
+                                                                                        <span>#100</span>
+                                                                                    </div>
+                                                                                    <img src="src/imagens/100.gif" alt="Voltorb" class="gif">
+                                                                                    <ul class="tipos">
+                                                                                        <li class="tipo eletrico">Elétrico</li>
+                                                                                    </ul>
+                                                                                    <p></p>
+                                                                                    </li>
+                                                                                    <li class="cartao-pokemon">
+                                                                                        <div class="informacoes">
+                                                                                            <span>Electrode</span>
+                                                                                            <span>#101</span>
+                                                                                        </div>
+                                                                                        <img src="src/imagens/101.gif" alt="Electrode" class="gif">
+                                                                                        <ul class="tipos">
+                                                                                            <li class="tipo eletrico">Elétrico</li>
+                                                                                        </ul>
+                                                                                        <p></p>
+                                                                                        </li>
+                                                                                        <li class="cartao-pokemon">
+                                                                                            <div class="informacoes">
+                                                                                                <span>Exeggcute</span>
+                                                                                                <span>#0102</span>
+                                                                                            </div>
+                                                                                            <img src="src/imagens/102.gif" alt="Exerggcute" class="gif">
+                                                                                            <ul class="tipos">
+                                                                                                <li class="tipo grama">Grama</li>
+                                                                                                <li class="tipo psiquico">Psíquico</li>
+                                                                                             </ul>
+                                                                                            <p></p>
+                                                                                            </li>
+                                                                                            <li class="cartao-pokemon">
+                                                                                                <div class="informacoes">
+                                                                                                    <span>Exeggutor</span>
+                                                                                                    <span>#103</span>
+                                                                                                </div>
+                                                                                                <img src="src/imagens/103.gif" alt="Exeggutor" class="gif">
+                                                                                                <ul class="tipos">
+                                                                                                    <li class="tipo grama">Grama</li>
+                                                                                                    <li class="tipo psiquico">Psíquico</li>
+                                                                                                </ul>
+                                                                                                <p></p>
+                                                                                                </li>
+<li class="cartao-pokemon">
+<div class="informacoes">
+<span>Cubone</span>
+<span>#104</span>
+ </div>
+ <img src="src/imagens/104.gif" alt="Cubone" class="gif">
+ <ul class="tipos">
+ <li class="tipo terrestre">Terrestre</li>
+</ul>
+<p></p>
+</li>
+<li class="cartao-pokemon">
+ <div class="informacoes">
+ <span>Marowak</span>
+ <span>#105</span>
+ </div>
+ <img src="src/imagens/105.gif" alt="Marowak" class="gif">
+<ul class="tipos">
+ <li class="tipo terrestre">Terrestre</li>
+</ul>
+ <p></p>
+</li>
+<li class="cartao-pokemon">
+    <div class="informacoes">
+    <span>Hitmonlee</span>
+    <span>#106</span>
+     </div>
+     <img src="src/imagens/106.gif" alt="Hitmonlee" class="gif">
+     <ul class="tipos">
+     <li class="tipo lutador">Lutador</li>
+    </ul>
+    <p></p>
+    </li>
+    <li class="cartao-pokemon">
+        <div class="informacoes">
+        <span>Hitmonchan</span>
+        <span>#107</span>
+         </div>
+         <img src="src/imagens/107.gif" alt="Hitmonchan" class="gif">
+         <ul class="tipos">
+         <li class="tipo lutador">Lutador</li>
+        </ul>
+        <p></p>
+        </li>
+        <li class="cartao-pokemon">
+            <div class="informacoes">
+            <span>Licktung</span>
+            <span>#108</span>
+             </div>
+             <img src="src/imagens/108.gif" alt="Licktung" class="gif">
+             <ul class="tipos">
+             <li class="tipo normal">Normal</li>
+            </ul>
+            <p></p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                <span>Koffing</span>
+                <span>#109</span>
+                 </div>
+                 <img src="src/imagens/109.gif" alt="Koffing" class="gif">
+                 <ul class="tipos">
+                 <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p></p>
+                </li>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                    <span>Weezing</span>
+                    <span>#110</span>
+                     </div>
+                     <img src="src/imagens/110.gif" alt="Weezing" class="gif">
+                     <ul class="tipos">
+                     <li class="tipo veneno">Veneno</li>
+                    </ul>
+                    <p></p>
+                    </li>
+                    <li class="cartao-pokemon">
+                        <div class="informacoes">
+                        <span>Rhyhorn</span>
+                        <span>#111</span>
+                         </div>
+                         <img src="src/imagens/111.gif" alt="Rhyhorn" class="gif">
+                         <ul class="tipos">
+                         <li class="tipo terrestre">Terrestre</li>
+                         <li class="tipo pedra">Pedra</li>
+                        </ul>
+                        <p></p>
+                        </li>
+                        <li class="cartao-pokemon">
+                            <div class="informacoes">
+                            <span>Rhydon</span>
+                            <span>#112</span>
+                             </div>
+                             <img src="src/imagens/112.gif" alt="Rhydon" class="gif">
+                             <ul class="tipos">
+                             <li class="tipo terrestre">Terrestre</li>
+                             <li class="tipo pedra">Pedra</li>
                             </ul>
-                            </ul>
+                            <p></p>
+                            </li>
+                            <li class="cartao-pokemon">
+                                <div class="informacoes">
+                                <span>Chansey</span>
+                                <span>#113</span>
+                                 </div>
+                                 <img src="src/imagens/113.gif" alt="Chansey" class="gif">
+                                 <ul class="tipos">
+                                 <li class="tipo normal">Normal</li>
+                                </ul>
+                                <p></p>
+                                </li>
+                                <li class="cartao-pokemon">
+                                    <div class="informacoes">
+                                    <span>Tangela</span>
+                                    <span>#114</span>
+                                     </div>
+                                     <img src="src/imagens/114.gif" alt="Tangela" class="gif">
+                                     <ul class="tipos">
+                                     <li class="tipo grama">Grama</li>
+                                    </ul>
+                                    <p></p>
+                                    </li>
+                                    <li class="cartao-pokemon">
+                                        <div class="informacoes">
+                                        <span>Kangaskhan</span>
+                                        <span>#115</span>
+                                         </div>
+                                         <img src="src/imagens/115.gif" alt="Kangaskhan" class="gif">
+                                         <ul class="tipos">
+                                         <li class="tipo normal">Normal</li>
+                                        </ul>
+                                        <p></p>
+                                        </li>
+                                        <li class="cartao-pokemon">
+                                            <div class="informacoes">
+                                            <span>Horsea</span>
+                                            <span>#116</span>
+                                             </div>
+                                             <img src="src/imagens/116.gif" alt="Horsea" class="gif">
+                                             <ul class="tipos">
+                                             <li class="tipo agua">Água</li>
+                                            </ul>
+                                            <p></p>
+                                            </li>
+                                            <li class="cartao-pokemon">
+                                                <div class="informacoes">
+                                                <span>Seadra</span>
+                                                <span>#117</span>
+                                                 </div>
+                                                 <img src="src/imagens/117.gif" alt="Kangaskhan" class="gif">
+                                                 <ul class="tipos">
+                                                 <li class="tipo agua">Água</li>
+                                                </ul>
+                                                <p></p>
+                                                </li>
+                                                <li class="cartao-pokemon">
+                                                    <div class="informacoes">
+                                                    <span>Goldeen</span>
+                                                    <span>#118</span>
+                                                     </div>
+                                                     <img src="src/imagens/118.gif" alt="Goldeen" class="gif">
+                                                     <ul class="tipos">
+                                                     <li class="tipo agua">Água</li>
+                                                    </ul>
+                                                    <p></p>
+                                                    </li>
+                                                    <li class="cartao-pokemon">
+                                                        <div class="informacoes">
+                                                        <span>Seaking</span>
+                                                        <span>#119</span>
+                                                         </div>
+                                                         <img src="src/imagens/119.gif" alt="Seaking" class="gif">
+                                                         <ul class="tipos">
+                                                         <li class="tipo agua">Água</li>
+                                                        </ul>
+                                                        <p></p>
+                                                        </li>
+                                                        <li class="cartao-pokemon">
+                                                            <div class="informacoes">
+                                                            <span>Staryu</span>
+                                                            <span>#120</span>
+                                                             </div>
+                                                             <img src="src/imagens/120.gif" alt="Staryu" class="gif">
+                                                             <ul class="tipos">
+                                                             <li class="tipo agua">Água</li>
+                                                            </ul>
+                                                            <p></p>
+                                                            </li>
+                                                            <li class="cartao-pokemon">
+                                                                <div class="informacoes">
+                                                                <span>Starmie</span>
+                                                                <span>#121</span>
+                                                                 </div>
+                                                                 <img src="src/imagens/121.gif" alt="Starmie" class="gif">
+                                                                 <ul class="tipos">
+                                                                 <li class="tipo agua">Àgua</li>
+                                                                </ul>
+                                                                <p></p>
+                                                                </li>
+                                                                <li class="cartao-pokemon">
+                                                                    <div class="informacoes">
+                                                                    <span>Mr.Mime</span>
+                                                                    <span>#122</span>
+                                                                     </div>
+                                                                     <img src="src/imagens/122.gif" alt="Mr.Mime" class="gif">
+                                                                     <ul class="tipos">
+                                                                     <li class="tipo psiquico">Psíquico</li>
+                                                                     <li class="tipo fada">Fada</li>
+                                                                    </ul>
+                                                                    <p></p>
+                                                                    </li>
+                                                                    <li class="cartao-pokemon">
+                                                                        <div class="informacoes">
+                                                                        <span>Scyther</span>
+                                                                        <span>#123</span>
+                                                                         </div>
+                                                                         <img src="src/imagens/123.gif" alt="Kangaskhan" class="gif">
+                                                                         <ul class="tipos">
+                                                                         <li class="tipo inseto">Inseto</li>
+                                                                         <li class="tipo voador">Voador</li>
+                                                                        </ul>
+                                                                        <p></p>
+                                                                        </li>
+                                                                        <li class="cartao-pokemon">
+                                                                            <div class="informacoes">
+                                                                            <span>Jynx</span>
+                                                                            <span>#124</span>
+                                                                             </div>
+                                                                             <img src="src/imagens/124.gif" alt="Jynx" class="gif">
+                                                                             <ul class="tipos">
+                                                                             <li class="tipo gelo">Gelo</li>
+                                                                             <li class="tipo psiquico">Psíquico</li>
+                                                                            </ul>
+                                                                            <p></p>
+                                                                            </li>
+                                                                            <li class="cartao-pokemon">
+                                                                                <div class="informacoes">
+                                                                                <span>Electabuzz</span>
+                                                                                <span>#125</span>
+                                                                                 </div>
+                                                                                 <img src="src/imagens/125.gif" alt="Electabuzz" class="gif">
+                                                                                 <ul class="tipos">
+                                                                                 <li class="tipo eletrico">Elétrico</li>
+                                                                                </ul>
+                                                                                <p></p>
+                                                                                </li>
+                                                                                <li class="cartao-pokemon">
+                                                                                    <div class="informacoes">
+                                                                                    <span>Magmar</span>
+                                                                                    <span>#126</span>
+                                                                                     </div>
+                                                                                     <img src="src/imagens/126.gif" alt="Magmar" class="gif">
+                                                                                     <ul class="tipos">
+                                                                                     <li class="tipo fogo">Fogo</li>
+                                                                                    </ul>
+                                                                                    <p></p>
+                                                                                    </li>
+                                                                                    <li class="cartao-pokemon">
+                                                                                        <div class="informacoes">
+                                                                                        <span>Pinsir</span>
+                                                                                        <span>#127</span>
+                                                                                         </div>
+                                                                                         <img src="src/imagens/127.gif" alt="Pinsir" class="gif">
+                                                                                         <ul class="tipos">
+                                                                                         <li class="tipo inseto">Inseto</li>
+                                                                                        </ul>
+                                                                                        <p></p>
+                                                                                        </li>
+                                                                                        <li class="cartao-pokemon">
+                                                                                            <div class="informacoes">
+                                                                                            <span>Tauros</span>
+                                                                                            <span>#128</span>
+                                                                                             </div>
+                                                                                             <img src="src/imagens/128.gif" alt="Tauros" class="gif">
+                                                                                             <ul class="tipos">
+                                                                                             <li class="tipo normal">Normal</li>
+                                                                                            </ul>
+                                                                                            <p></p>
+                                                                                            </li>
+                                                                                            <li class="cartao-pokemon">
+                                                                                                <div class="informacoes">
+                                                                                                <span>Magikarp</span>
+                                                                                                <span>#129</span>
+                                                                                                 </div>
+                                                                                                 <img src="src/imagens/129.gif" alt="Magikarp" class="gif">
+                                                                                                 <ul class="tipos">
+                                                                                                 <li class="tipo agua">Água</li>
+                                                                                                </ul>
+                                                                                                <p></p>
+                                                                                                </li>
+                                                                                                <li class="cartao-pokemon">
+                                                                                                    <div class="informacoes">
+                                                                                                    <span>Gyarados</span>
+                                                                                                    <span>#130</span>
+                                                                                                     </div>
+                                                                                                     <img src="src/imagens/130.gif" alt="Gyarados" class="gif">
+                                                                                                     <ul class="tipos">
+                                                                                                     <li class="tipo agua">Água</li>
+                                                                                                     <li class="tipo voador">Voador</li>
+                                                                                                    </ul>
+                                                                                                    <p></p>
+                                                                                                    </li>
+</ul>
+</ul>
     </main>
     <script src="./src/js/index.js"></script>
 </body>

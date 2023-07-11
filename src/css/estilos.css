@@ -93,7 +93,7 @@ main .cartao-pokemon .informacoes{
 
 }
 main .cartao-pokemon .informacoes span{
-    background-color: rgb(3, 78, 163);
+    background-color: #bc6c25;
     padding: 5px;
     text-transform: uppercase;
     font-size: 17px;
@@ -134,6 +134,7 @@ main .descricao{
 }
 h1{
     font-family: "Pokemon",sans-serif,serif;
+    font-size:60px;
     text-align: center;
     font-weight: 700px;
     margin-bottom: 20px;

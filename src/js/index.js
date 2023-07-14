@@ -19,6 +19,3 @@ botaoAlterarTema.addEventListener("click", () => {
             listaDeGeracoes.style.display = "block";
         }
     })
-    
-
-

@@ -50,7 +50,7 @@ header #logo{
 header .logo:hover,
 header .imagem-botao:hover,
 main .cartao-pokemon:hover{
-    transform: scale(1.05);
+    transform: scale(1.2);
     cursor: pointer;
 }
 main{
@@ -128,6 +128,7 @@ main .cartao-pokemon .tipo{
 .ferro{background-color: gray;}
 .gelo{background-color: #bde0fe;}
 .fantasma{background-color: #3c096c;}
+.dragao{background: linear-gradient(to bottom, rgb(8, 26, 218), rgb(236, 156, 7));}
 main .descricao{
     font-size: 14px;
     padding-right: 10px;
